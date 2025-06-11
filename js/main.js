@@ -23,5 +23,5 @@ runButton.addEventListener("click", () => {
 saveButton.addEventListener("click", () => {
 	snippets[today] = codeArea.value;
 	localStorage.setItem("snippets", JSON.stringify(snippets));
-	alert("saved! great work!");
+	alert("your work is saved <3");
 });
